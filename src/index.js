@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Layount } from './components/useLayoutEffect/Layount';
+import { Padre } from './components/tarea-memo/Padre';
+//import { CallBackHook } from './components/memos/CallBackHook';
+//import { MemoHook } from './components/memos/MemoHook';
+//import { Memorize } from './components/memos/Memorize';
+//import { Layount } from './components/useLayoutEffect/Layount';
 //import { RealExampleRef } from './components/useRef/RealExampleRef';
 //import { FocusScreem } from './components/useRef/FocusScreem';
 //import { MultiplesCutomerHook } from './components/examples/MultiplesCutomerHook';
@@ -14,7 +18,7 @@ import { Layount } from './components/useLayoutEffect/Layount';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Layount />
+    <Padre />
   </React.StrictMode>
 );
 
