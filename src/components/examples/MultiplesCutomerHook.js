@@ -30,7 +30,7 @@ export const MultiplesCutomerHook = () => {
         }
 
         <button 
-            className="btn btn-primary" 
+            className="btn btn-primary mt-4" 
             onClick={increment}>
                 Siguiente quote
         </button>
