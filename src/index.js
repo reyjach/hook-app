@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Padre } from './components/tarea-memo/Padre';
+import { TodoApp } from './components/useReducer/TodoApp';
+//import { Padre } from './components/tarea-memo/Padre';
 //import { CallBackHook } from './components/memos/CallBackHook';
 //import { MemoHook } from './components/memos/MemoHook';
 //import { Memorize } from './components/memos/Memorize';
@@ -18,8 +19,10 @@ import { Padre } from './components/tarea-memo/Padre';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>
-);
+); 
+
+//import './components/useReducer/intro-reducer';
 
 
