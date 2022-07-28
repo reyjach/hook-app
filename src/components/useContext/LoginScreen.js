@@ -3,13 +3,16 @@ import { UserContext } from './UserContext';
 
 export const LoginScreen = () => {
 
-  const users = {
-    id: 123,
-    name: 'carlos',
-    email: 'carlos23@gmail.com'
-  }
 
-  const { user, setUser } = useContext( UserContext );
+  const { setUser } = useContext( UserContext );
+
+  const handleClick = () => {
+    setUser({
+      id: 123,
+      name: 'carlos',
+      email: 'carlos23@gmail.com'
+    })
+  }
 
   return (
     <div>
@@ -18,10 +21,7 @@ export const LoginScreen = () => {
 
         <button 
           className="btn btn-primary"
-          onClick={ () => setUser({
-            ...user,
-            users
-          })}>
+          onClick={ handleClick }>
           Login
         </button>
     </div>
